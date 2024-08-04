@@ -1,0 +1,98 @@
+body {
+    /* Centrar el contenido horizontalmente */
+    text-align: center;
+    /* Eliminar los márgenes predeterminados */
+    margin: 0;
+    /* Establecer un color de fondo */
+    background: rgb(45, 80, 119);
+    /* Utilizar flexbox para centrar el contenido */
+    display: flex;
+    /* Centrar verticalmente el contenido del cuerpo */
+    align-items: center;
+    /* Centrar horizontalmente el contenido del cuerpo */
+    justify-content: center;
+    /* Hacer que el cuerpo tenga la altura de la pantalla completa */
+    height: 100vh;
+}
+
+#calcular {
+    /* Limitar el ancho máximo del contenedor */
+    max-width: 360px;
+    /* Establecer un color de fondo para el contenedor */
+    background-color: #122236;
+    /* Redondear las esquinas del contenedor */
+    border-radius: 10px;
+    /* Añadir espacio interno (padding) al contenedor */
+    padding: 20px;
+    /* Añadir una sombra al contenedor para darle profundidad */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
+
+#display {
+    /* Hacer que el display tenga el 100% del ancho del contenedor */
+    width: 100%;
+    /* Establecer la altura del display */
+    height: 56px;
+    /* Tamaño de la fuente del texto en el display */
+    font-size: 20px;
+    /* Alinear el texto a la derecha */
+    text-align: right;
+    /* Añadir un margen en la parte inferior */
+    margin-bottom: 10px;
+    /* Añadir espacio interno (padding) */
+    padding: 20px;
+    /* Redondear las esquinas del display */
+    border-radius: 10px;
+    /* Color del texto en el display */
+    color: white;
+    /* Establecer un color de fondo translúcido */
+    background-color: rgba(45, 85, 127, 0.3);
+    /* Eliminar el borde del display */
+    border: none;
+    /* Incluir el padding y el borde dentro del tamaño total del display */
+    box-sizing: border-box;
+}
+
+.operador {
+    /* Color del texto para los botones de operador */
+    color: aquamarine;
+}
+
+#ac {
+    /* Color del texto para el botón de limpiar (AC) */
+    color: #106b73;
+}
+
+.igual {
+    /* Hacer que el botón de igual ocupe el 50% del ancho menos 10px */
+    width: calc(50% - 10px);
+}
+
+button {
+    /* Hacer que cada botón ocupe el 25% del ancho menos 10px */
+    width: calc(25% - 10px);
+    /* Establecer la altura de los botones */
+    height: 50px;
+    /* Tamaño de la fuente del texto en los botones */
+    font-size: 20px;
+    /* Añadir un margen alrededor de los botones */
+    margin: 10px 5px;
+    /* Eliminar el borde de los botones */
+    border: none;
+    /* Redondear las esquinas de los botones */
+    border-radius: 5px;
+    /* Alinear los botones a la izquierda */
+    float: left;
+    /* Establecer un color de fondo para los botones */
+    background-color: rgb(13, 27, 42);
+    /* Establecer el color del texto de los botones */
+    color: #e0e1dd;
+
+}
+
+button:hover {
+    /* Cambiar el cursor a un puntero cuando se pase sobre los botones */
+    cursor: pointer;
+}
+
+

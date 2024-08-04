@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Declarar el tipo de documento como HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Establecer la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurar el viewport para que sea responsivo -->
+    <title>Calculadora</title>
+    <!-- Título de la página -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlazar el archivo CSS externo -->
+</head>
+
+<body>
+    <!-- Cuerpo del documento -->
+    <div id="calcular">
+        <!-- Contenedor principal de la calculadora -->
+        
+        <input type="text" id="display" disabled>
+        <!-- Campo de entrada de texto para mostrar los números y resultados,
+          deshabilitado para que no se pueda editar directamente -->
+        <br />
+        <!-- Salto de línea -->
+        <button id="ac" class="operador">AC</button>
+        <!-- Botón para limpiar todo (AC) -->
+        <button id="de" class="operador">DE</button>
+        <!-- Botón para borrar el último dígito (DE) -->
+        <button id="." class="operador">.</button>
+        <!-- Botón para el punto decimal (.) -->
+        <button id="/" class="operador">/</button>
+        <!-- Botón para la división (/) -->
+        <br />
+        <!-- Salto de línea -->
+        <button id="7">7</button>
+        <!-- Botón para el número 7 -->
+        <button id="8">8</button>
+        <!-- Botón para el número 8 -->
+        <button id="9">9</button>
+        <!-- Botón para el número 9 -->
+        <button id="*" class="operador">*</button>
+        <!-- Botón para la multiplicación (*) -->
+        <br />
+        <!-- Salto de línea -->
+        <button id="4">4</button>
+        <!-- Botón para el número 4 -->
+        <button id="5">5</button>
+        <!-- Botón para el número 5 -->
+        <button id="6">6</button>
+        <!-- Botón para el número 6 -->
+        <button id="-" class="operador">-</button>
+        <!-- Botón para la resta (-) -->
+        <br />
+        <!-- Salto de línea -->
+        <button id="1">1</button>
+        <!-- Botón para el número 1 -->
+        <button id="2">2</button>
+        <!-- Botón para el número 2 -->
+        <button id="3">3</button>
+        <!-- Botón para el número 3 -->
+        <button id="+" class="operador">+</button>
+        <!-- Botón para la suma (+) -->
+        <br />
+        <!-- Salto de línea -->
+        <button id="00">00</button>
+        <!-- Botón para el número 00 -->
+        <button id="0">0</button>
+        <!-- Botón para el número 0 -->
+        <button id="=" class="igual">=</button>
+        <!-- Botón para el igual (=) -->
+    </div>
+    
+    <script src="script.js"></script>
+    <!-- Enlazar el archivo JavaScript externo -->
+</body>
+</html>
